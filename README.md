@@ -1,6 +1,7 @@
 # 110-2 - Android Studio Practice
 
 Android 應用程式開發作業放置。
+所有內容皆來自於[Codelabs for Android Developer Fundamentals](https://developer.android.com/courses/fundamentals-training/toc-v2#unit_1_get_started)。
 
 # 功課進度
 
