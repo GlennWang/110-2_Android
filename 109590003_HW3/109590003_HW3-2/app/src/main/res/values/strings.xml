@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License. -->
 
 <resources>
-    <string name="app_name">Hello Toast</string>
+    <string name="app_name">109590003_HW3-2</string>
     <string name="button_label_count">Count</string>
     <string name="button_label_toast">Toast</string>
     <string name="count_initial_value">0</string>
