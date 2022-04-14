@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".recipe">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-366dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="410dp"
+                android:layout_height="257dp"
+                app:srcCompat="@drawable/timg" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="411dp"
+                android:layout_height="347dp"
+                android:textSize="14dp"
+                android:text="食材：菲力牛肉，海鹽，黑胡椒，橄欖油，英式黃芥末，栗菇，大蒜，栗子，百里香，火腿片，酥皮，雞蛋\n
+1.在菲力牛肉上撒上海鹽和黑胡椒，用手按摩一下牛肉；\n
+2.熱鍋，將鍋熱到冒煙，倒入橄欖油，將菲力牛肉的表面都煎至焦黃，側面也要將煎至焦黃；\n
+3.取出之後使用英式黃芥末抹在牛肉上，給牛肉增加一些辣味，之後靜置；\n
+4.在攪拌機裡放入栗菇，切除一瓣大蒜，加入其中，撒上一些鹽和黑胡椒，開始打碎攪拌，之後再往攪拌機中加入幾顆栗子，繼續攪拌；\n
+5.將蘑菇泥放置在鍋中，加熱，將水蒸發出來，在煮了一小會之後，往蘑菇泥加入百里香葉子，將蘑菇泥大部分的水佛蒸發出來，放置在盤子上備用；\n
+6.使用保鮮膜，在保鮮膜上鋪上火腿片，在火腿片上撒上一些黑胡椒粉，把蘑菇泥鋪在火腿片上，在邊緣留下大概1英吋的空間；\n
+7.將牛肉放置在蘑菇泥上面，是保鮮膜在最外層，將牛肉包起來，壓實壓緊，擰緊兩端，使其成為一個圓柱體；\n
+8.將威靈頓牛排放入冰箱冷凍15~20分鐘定型，取出之後將威靈頓牛排從保鮮膜裡取出；\n
+9.將酥皮鋪在保鮮膜上，將定型後的威靈頓牛排放置在酥皮上，用酥皮將威靈頓牛排包緊，兩端收到一起，壓實壓緊，再用保鮮膜將其整個包住，用力壓縮成圓柱體；\n
+10.將威靈頓牛排放入冰箱冷凍5分鐘定型，取出之後在酥皮表明抹上蛋黃，用刀在酥皮上面切出紋理，最後在上面撒上一些海鹽；\n
+11.將威靈頓牛排放進烤箱烤製，200度烤35分鐘，取出切成2.5cm後的牛排即可食用。\n"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
